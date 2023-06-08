@@ -37,6 +37,18 @@ body {
     margin-right: -12px;
 }
 
+.grid__colunm-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.grid__colunm-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 /*  decription*/
 .decription {
     display: none;
@@ -97,7 +109,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .modal__body {
