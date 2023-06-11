@@ -1,4 +1,119 @@
+body {
+    background-color: var(--white-color);
+}
 
 .listbooks_none{
     display: none;
+}
+
+.breadcrumb__list {
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    padding: 0 0 12px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.breadcrumb__item a {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--text-color);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* product */
+.product__wrapper {
+    margin-top: 20px;
+    display: flex;
+}
+
+.product__info-img {
+    height: 377px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0.3);
+    cursor: pointer;
+}
+
+.product__info {
+    margin-left: 36px;
+}
+
+.product__info-title {
+    margin-top: 0;
+    color: var(--black-color);
+    font-weight: 500;
+}
+
+.product__info-author {
+    line-height: 26px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.product__info-author a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.product__info-author a:hover {
+    text-decoration: underline;
+}
+
+.product__info-rate {
+    display: flex;
+    font-size: 14px;
+}
+
+.product__info-rate-stars {
+    color: #ffd800;
+}
+
+.product__info-rate a{
+    text-decoration: none;
+    color: #888;
+}
+
+.product__info-rate a:hover,.product__preview a:hover,.product-sub__item a:hover {
+    text-decoration: underline;
+}
+
+.product__preview-text {
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.product__preview a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0088cc;
+}
+
+.product-sub__title {
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 20px;
+    border-top: 1px dashed #999;
+}
+
+.product-sub__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product-sub__item {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.product-sub__item i {
+    color: var(--primary-color);
+    margin-right: 4px;
+    font-size: 16px;
+}
+
+.product-sub__item a {
+    color: var(--primary-color);
+    text-decoration: none;
 }
