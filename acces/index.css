@@ -348,14 +348,14 @@ body {
     width: 30%;
     max-width: 62px;
     min-width: 62px;
-    max-height: 100px;
+    height: 90px;
 }
 
 .sidebar__bs-box {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 4px 0 4px 10px;
+    justify-content: space-around;
+    padding-left: 10px;
 }
 
 .sidebar__bs-title {
