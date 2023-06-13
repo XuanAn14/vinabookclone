@@ -26,9 +26,6 @@ body {
 
 .grid__full-width {
     width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-
 }
 
 .grid__row {
@@ -44,6 +41,12 @@ body {
     padding-right: 12px;
 }
 
+.grid__colunm-3-5 {
+    width: 29.16667%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .grid__colunm-4 {
     width: 33.3334%;
     padding-left: 12px;
@@ -52,6 +55,12 @@ body {
 
 .grid__colunm-9 {
     width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.grid__colunm-8-5 {
+    width: 70.83334%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -403,6 +412,7 @@ body {
 
 .listbooks-list__item:hover .listbooks-list__item-child {
     display: block;
+    z-index: 1;
 }
 
 .item-child__img-table {
@@ -722,4 +732,26 @@ body {
 .footer__coppy-r-bot-logo {
     display: flex;
     align-items: center;
+}
+
+/* buy btn */
+.btn__buy {
+    padding: 6px 0;
+    margin: 10px 8px;
+    background-color: #ffc705;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3e3535;
+    border: 1px solid #e1af04;
+    border-radius: 4PX;
+    cursor: pointer;
+}
+
+.btn__buy-icon {
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.btn__buy:hover {
+    background-color: #fce233;
 }

@@ -241,28 +241,6 @@ body {
     margin-right: 6px;
 }
 
-.btn__buy {
-    width: 230px;
-    padding: 6px 0;
-    margin: 10px 8px;
-    background-color: #ffc705;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #3e3535;
-    border: 1px solid #e1af04;
-    border-radius: 4PX;
-    cursor: pointer;
-}
-
-.btn__buy-icon {
-    font-size: 20px;
-    margin-right: 20px;
-}
-
-.btn__buy:hover {
-    background-color: #fce233;
-}
-
 .user-rate {
     display: flex;
     justify-content: end;
@@ -294,4 +272,138 @@ body {
 
 .user-rate a:hover .check-icon {
     color: var(--primary-color);
+}
+
+/* extra book */
+.extra-book__pics {
+    margin-top: 10px;
+}
+
+.extra-book__pic {
+    text-decoration: none;
+    position: relative;
+}
+
+.extra-book__pic img {
+    width: 52px;
+}
+
+.extra-book__pic span {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    padding: 4px;
+    color: var(--white-color);
+    background-color: #ef3f42;
+    z-index: 1;
+    right: -18px;
+}
+
+.bi-plus-lg {
+    margin: 0 20px 0 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.extra-book__title {
+    font-size: 19px;
+    color: var(--primary-color);
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 0 8px 0;
+}
+
+.extra-book__pics {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.extra-book__prices {
+    margin-left: 60px;
+}
+
+.extra-book__label {
+    font-size: 18px;
+    color: #666;
+}
+
+.extra-book__num {
+    font-size: 22px;
+    color: #ca2027;
+}
+
+.extra-book__checkbox {
+    display: flex;
+    margin-top: 5px;
+}
+
+.extra-book__checkbox label a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-left: 4px;
+}
+
+.extra-book__checkbox label a:hover {
+    text-decoration: underline;
+}
+
+.extra-book__checkbox label span {
+    font-size: 16px;
+    color: #ca2027;
+    margin-left: 6px;
+}
+
+.tab-detail {
+    background-color: var(--white-color);
+    padding-bottom: 10px;
+}
+
+.tab-detail__list {
+    list-style: none;
+    padding: 0 0 12px 0;
+    display: flex;
+    margin: 20px 0 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.tab-detail__item  a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 0 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+.tab-detail__item:first-child  a {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.tab-detail__item--active a {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.introduce__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--text-color);
+    font-size: 17px;
+}
+
+.introduce__p{
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 28px;
+}
+
+.introduce__p:last-child p{
+    margin-bottom: 4px;
+}
+
+.introduce__p b i,.introduce__p i {
+    font-size: 14px;
 }
