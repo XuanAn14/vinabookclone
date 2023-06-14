@@ -19,7 +19,7 @@ body {
 }
 
 .grid {
-    width: 1300px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -760,7 +760,7 @@ body {
 /* buy btn */
 .btn__buy {
     padding: 6px 0;
-    margin: 10px 8px;
+    margin: 10px 0;
     background-color: #ffc705;
     font-size: 14px;
     text-transform: uppercase;
