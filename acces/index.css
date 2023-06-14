@@ -10,8 +10,9 @@ body {
 
 /* container */
 /* banner */
-.big-banner {
-   display: flex;
+
+.banner-top {
+    display: flex;
 }
 
 .big-banner__img {
@@ -20,21 +21,24 @@ body {
 }
 
 .small-banner {
-    display: flex;
-    flex-direction: column;
+    flex: 1;
 }
 
 .small-banner__img {
-    width: 100%;
-    height: 186px;
+    height: 182px;
 }
 
 .small-banner-bot {
     display: flex;
 }
+
+.small-banner-bot a{
+    flex: 1;
+}
+
 .small-banner-bot__img{
     width: 100%;
-    height: 186px;
+    height: 194px;
     padding-right: 1px;
 }
 
@@ -81,7 +85,7 @@ body {
     border-bottom: 1px dashed var(--white-color);
     padding-bottom: 15px;
     line-height: 22px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .content__buy-box {
@@ -291,7 +295,6 @@ body {
 }
 
 .content__au-info {
-    font-size: 14px;
     line-height: 20px;
     color: var(--text-color);
     margin: 20px 0 0 0;

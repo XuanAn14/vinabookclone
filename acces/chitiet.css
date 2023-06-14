@@ -395,7 +395,7 @@ body {
 }
 
 .introduce__p{
-    font-size: 18px;
+    font-size: 17px;
     color: var(--text-color);
     line-height: 28px;
 }
@@ -407,3 +407,4 @@ body {
 .introduce__p b i,.introduce__p i {
     font-size: 14px;
 }
+
