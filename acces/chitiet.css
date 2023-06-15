@@ -361,19 +361,45 @@ body {
 
 .tab-detail__list {
     list-style: none;
-    padding: 0 0 12px 0;
     display: flex;
+    padding: 0;
     margin: 20px 0 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.tab-detail__list::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: 1px;
     border-bottom: 1px dashed #ccc;
+    z-index: 1;
+}
+
+.tab-detail__item {
+    height: 100%;
+    margin-right: 6px;
+    z-index: 2;
+}
+
+
+.tab-detail_fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .tab-detail__item  a{
+    display: block;
     text-decoration: none;
     font-size: 14px;
     margin: 0 4px;
-    padding: 0 20px;
+    padding: 0 20px 12px 20px;
     color: #666;
     font-weight: bold;
+    height: 100%;
+
 }
 
 .tab-detail__item:first-child  a {
@@ -382,10 +408,16 @@ body {
 }
 
 .tab-detail__item--active a {
-    padding-bottom: 12px;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.tab-detail__item:hover a{
     border-bottom: 3px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+
 
 /* introduce */
 
@@ -453,6 +485,7 @@ body {
 .author__pic {
     width: 100px;
     border: 1px solid #ccc;
+    margin: 0 6px;
 }
 
 .author-text {
@@ -484,6 +517,7 @@ body {
 /* information */
 .information__title {
     font-size: var(--text-color);
+    margin-top: 70px;
 }
 
 .information__list {
@@ -511,5 +545,90 @@ body {
 }
 
 .information__item a:hover{
+    text-decoration: underline;
+}
+
+/* comment & rate */
+.comment__title {
+    clear: both;
+    padding-top: 40px;
+    color: var(--primary-color);
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.customer {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.customer:last-child {
+    border: none;
+}
+
+.customer-pic {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.customer-rate-review {
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.customer-review1 {
+    font-weight: bold;
+}
+
+.rate-stars {
+    color: #ffd800;
+    font-size: 14px;
+    margin: 4px 0 10px 0;
+}
+
+.customer__name  {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.customer__name:hover {
+
+    text-decoration: underline;
+}
+
+.customer__comment {
+    line-height: 24px;
+    width: 90%;
+}
+
+.like-comment {
+    display: flex;
+    font-size: 12px;
+    padding: 6px 10px;
+    border: none;
+    background-color: #a9a9a9;
+    color: var(--white-color);
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.like-comment i{
+    margin-right: 4px;
+}
+
+.like-comment:hover {
+    background-color:#2ba40d ;
+}
+
+.user-rate-cmt{
+    font-size: 14px;
+}
+
+.user-rate-cmt a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.user-rate-cmt a:hover {
     text-decoration: underline;
 }

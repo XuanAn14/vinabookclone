@@ -12,16 +12,30 @@ headermid_cart.onclick = function(){
   cart_box.classList.toggle("cart-box-none");
 }
 
-// header fixed
+// fixed
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("headerFixed");
-var sticky = header.offsetTop;
+var stickyHeader = header.offsetTop;
+var tab_detail = document.getElementById("tabFixed");
+var stickyTab = tab_detail.offsetTop;
 
 function myFunction() {
-  if (window.scrollY > sticky) {
+  if (window.scrollY > stickyHeader) {
+    header.style.setProperty("display","flex");
     header.classList.add("header-mid_fixed");
-  } else {
+  } else{
     header.classList.remove("header-mid_fixed");
   }
+  
+  if (window.scrollY > stickyTab) {
+    header.style.setProperty("display","none");
+    tab_detail.classList.add("tab-detail_fixed");
+  } else {
+    tab_detail.classList.remove("tab-detail_fixed");
+  }
+
 }
+
+
+
