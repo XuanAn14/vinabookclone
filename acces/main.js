@@ -1,9 +1,3 @@
-// menu click
-var headerbot__listbooks = document.querySelector(".header-bot__listbooks");
-var listbooks__list = document.querySelector(".listbooks-list");
-headerbot__listbooks.onclick = function(){
-    listbooks__list.classList.toggle("listbooks_none");
-}
 
 // cart click
 var headermid_cart = document.querySelector(".header-mid__cart");
@@ -12,30 +6,14 @@ headermid_cart.onclick = function(){
   cart_box.classList.toggle("cart-box-none");
 }
 
-// fixed
-window.onscroll = function() {myFunction()};
+// Login Form
 
-var header = document.getElementById("headerFixed");
-var stickyHeader = header.offsetTop;
-var tab_detail = document.getElementById("tabFixed");
-var stickyTab = tab_detail.offsetTop;
+var loginForm = document.getElementById("loginForm");
 
-function myFunction() {
-  if (window.scrollY > stickyHeader) {
-    header.style.setProperty("display","flex");
-    header.classList.add("header-mid_fixed");
-  } else{
-    header.classList.remove("header-mid_fixed");
-  }
-  
-  if (window.scrollY > stickyTab) {
-    header.style.setProperty("display","none");
-    tab_detail.classList.add("tab-detail_fixed");
-  } else {
-    tab_detail.classList.remove("tab-detail_fixed");
-  }
-
+function openLogin() {
+  loginForm.style.setProperty("display","flex")
 }
 
-
-
+function closeLoginForm() {
+  loginForm.style.setProperty("display","none")
+}

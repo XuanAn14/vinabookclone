@@ -75,11 +75,6 @@
                             
                             <button class="header-mid__search-btn" type="submit">Tìm sách</button>
                         </div>
-
-                        <!-- <div class="modal" style="top: 116px;">
-                            <div class="modal__overlay"></div>
-                            <div class="modal__body"></div>
-                        </div> -->
                         
                         <div class="header-mid__cart">
                             <i class="bi bi-cart3 header-mid__cart-icon"></i>
@@ -89,10 +84,74 @@
                         </div>
 
                         <div class="header-mid__right">
-                            <a href="" class="header-mid__right-log">Đăng nhập</a>
+                            <a class="header-mid__right-log" style="cursor: pointer;" onclick="openLogin()">Đăng nhập</a>
                             <a href="" class="header-mid__right-register">Đăng ký</a>
                         </div>
+                        
+                    </div>
+                </div>
+            </div>
 
+            <!-- Login form -->
+            <div class="modal" id="loginForm">
+                <div class="modal__overlay"></div>
+                <div class="modal__body">
+                    <div class="login-form " >
+                        <button class="login-exit" id="login-exit_btn" onclick="closeLoginForm()">
+                            x
+                        </button>
+                        <h3 class="login__title">Đăng nhập</h3>
+                        <table class="login-box">
+                            <tr>
+                                <td>
+                                    <label for="" class="login-label">Email</label>
+                                </td>
+                                <td  colspan="2">
+                                    <input type="text" name="" id="" class="login-input"> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="" class="login-label">Mật khẩu</label>
+                                </td>
+                                <td  colspan="2">
+                                    <input type="text" name="" id="" class="login-input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="login-remember-box">
+                                    <input type="checkbox" name="" id="" class="login-checkbox">
+                                    <label for="" class="login-remember">Ghi nhớ thông tin</label>
+                                </td>
+                                <td>
+                                    <a href="" class="login__forgot">Quên mật khẩu?</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button class="login-btn">
+                                        ĐĂNG NHẬP
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <h5 class="login-footer-title">Chưa có tài khoản vui lòng <a href="" class="regis-btn">ĐĂNG kÝ</a></h5>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="login__bottom">
+                            <p class="login__bottom-tile">Hoặc đăng nhập bằng:</p>
+                            <a href="" class="login__google">
+                                <img src="/acces/img/google_signin_dark.png" alt="">
+                            </a>
+                            <a href="" class="login__facebook">
+                                <img src="/acces/img/facebook_signin_dark.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -954,7 +1013,7 @@
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-half"></i>       
+                                <i class="bi bi-star-fill"></i>       
                             </div>
                             <div class="customer-rate__infor">
                                 Bởi
@@ -973,7 +1032,7 @@
                         </div>
                     </div>
 
-                    <div class="customer customer-last">
+                    <div class="customer">
                         <div class="customer-pic">
                             <img src="/acces/img/customer3.jpg" alt="" class="customer__img">
                         </div>
@@ -985,7 +1044,7 @@
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>       
+                                <i class="bi bi-star"></i>       
                             </div>
                             <div class="customer-rate__infor">
                                 Bởi
@@ -1003,6 +1062,69 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="customer">
+                        <div class="customer-pic">
+                            <img src="/acces/img/avtmd.png" alt="" class="customer__img">
+                        </div>
+                        
+                        <div class="customer-rate-review">
+                            <label class="customer-review1">Bình luận</label>
+                            <div class="rate-stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>       
+                            </div>
+                            <div class="customer-rate__infor">
+                                Bởi
+                                <a href="" class="customer__name">Người dùng</a>
+                                <span class="time">06/03/2016 22:44:43</span>
+                            </div>
+                            <p class="customer__comment">Hay</p>
+                            <div class="user-rate-cmt">
+                                <button class="like-comment">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Thích
+                                </button> <br>
+                                <a href="">Trả lời của bạn về đánh giá này</a>
+                                , <span>đã có 0 phản hồi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customer customer-last">
+                        <div class="customer-pic">
+                            <img src="/acces/img/avtmd.png" alt="" class="customer__img">
+                        </div>
+                        
+                        <div class="customer-rate-review">
+                            <label class="customer-review1"></label>
+                            <div class="rate-stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>       
+                            </div>
+                            <div class="customer-rate__infor">
+                                Bởi
+                                <a href="" class="customer__name">Người qua đường</a>
+                                <span class="time">06/03/2016 22:44:43</span>
+                            </div>
+                            <p class="customer__comment">Cũng được</p>
+                            <div class="user-rate-cmt">
+                                <button class="like-comment">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Thích
+                                </button> <br>
+                                <a href="">Trả lời của bạn về đánh giá này</a>
+                                , <span>đã có 0 phản hồi</span>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="grid">
                         <div class="rate-bottom">
                             <div class="rate-total">
@@ -1050,10 +1172,12 @@
                             <div class="user-comment">
                                 <span class="user-comment__note">Đăng nhập để gửi nhận xét của Bạn</span>
                                 <div class="user-login-box">
-                                    <button class="login-btn">ĐĂNG NHẬP</button>
+                                    <button class="login-btn" onclick="openLogin()">
+                                        ĐĂNG NHẬP
+                                    </button>
                                     <span class="user-regis">
                                         Bạn chưa có tài khoản? <br>
-                                        Hãy <a href="">Đăng ký</a>
+                                        Hãy <a href="" class="regis-btn">Đăng ký</a>
                                     </span>
                                 </div>
                             </div>
@@ -1062,8 +1186,9 @@
                     </div>
                 </div>
             </div>
-
+            
         </div>
+        
 
         <footer class="footer" style="clear: both;">
             <div class="footer-regis">
@@ -1275,6 +1400,8 @@
             </div>
         </footer>
     </div>
+
     <script src="/acces/main.js"></script>
+    <script src="/acces/chitiet.js"></script>
 </body>
 </html>

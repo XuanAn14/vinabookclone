@@ -725,21 +725,6 @@ body {
     color: var(--text-color);
 }
 
-.login-btn {
-    cursor: pointer;
-    padding: 12px 30px;
-    margin-top: 8px;
-    border: 1px solid #27910d;
-    background-color: #2ba40d;
-    border-radius: 3px;
-    color: var(--white-color);
-    outline: none;
-}
-
-.login-btn:hover {
-    background-color: #29BD04;
-}
-
 .user-login-box {
     display: flex;
     align-items: center;
@@ -749,17 +734,6 @@ body {
     font-size: 13px;
     margin-left: 20px;
     color: var(--text-color);
-}
-
-.user-regis a {
-    font-size: 14px;
-    text-decoration: none;
-    color: #1876ae;
-}
-
-.user-regis a:hover {
-    font-size: 14px;
-    text-decoration: underline;
 }
 
 .note-bottom {
