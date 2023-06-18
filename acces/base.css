@@ -35,8 +35,8 @@ body {
     margin-right: -12px;
 }
 
-.grid__colunm-2-5 {
-    width: 20.83334%;
+.grid__colunm-2-4 {
+    width: 20%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -944,4 +944,18 @@ body {
     color: #d64830;
     font-size: 20px;
     padding-left: 4px;
+}
+
+/* sale */
+
+.sale {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    padding: 6px;
+    color: var(--white-color);
+    background-color: #ef3f42;
+    z-index: 1;
+    right: -18px;
+    border-radius: 2px;
 }

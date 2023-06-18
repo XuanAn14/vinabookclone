@@ -271,17 +271,6 @@ body {
     width: 52px;
 }
 
-.extra-book__pic span {
-    font-size: 14px;
-    position: absolute;
-    bottom: 0;
-    padding: 4px;
-    color: var(--white-color);
-    background-color: #ef3f42;
-    z-index: 1;
-    right: -18px;
-}
-
 .bi-plus-lg {
     margin: 0 20px 0 10px;
     color: black;

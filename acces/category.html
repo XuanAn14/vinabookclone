@@ -1171,16 +1171,682 @@
                     <div class="grid__colunm-9">
                         <div class="category-right">
                             <h3 class="category-right__title">Sách Văn Học Trong Nước Mới Phát Hành</h3>
-                            <div class="grid__row">
-                                <div class="category-right__book grid__colunm-2-5">
+                            <div class="grid__row category-right__wrapper">
+                                <div class="category-right__book grid__colunm-2-4">
                                     <div class="category-right__img">
-                                        <img src="/acces/img/categoryb1.jpg" alt="">
+                                        <a href="">
+                                            <img src="/acces/img/categoryb1.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
                                     </div>
-                                    <a href="">Bức Thư Của Người Đàn Bà</a>
-                                    <span>Stefan Zweig</span>
+                                    <a href="" class="category-right__name">Bức Thư Của Người Đàn Bà</a>
+                                    <span class="category-right__author">Stefan Zweig</span>
                                     <div class="category-right__price">
                                         <span class="category-right__old-price">98.000đ</span>
+                                        <br>
                                         <span class="category-right__new-price">84.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/categoryb2.jpg" alt="">
+                                            <!-- <span class="sale">-14%</span> -->
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Ishura - Tu la dị giới tập 1 (Tân ma vương đại chiến) Bản thường</a>
+                                    <span class="category-right__author">Keiso</span>
+                                    <div class="category-right__price">
+                                        <!-- <span class="category-right__old-price">98.000đ</span> -->
+                                        <br>
+                                        <span class="category-right__new-price">139.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb3.jpg" alt="">
+                                            <span class="sale">-15%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Cổ Học Tinh Hoa</a>
+                                    <span class="category-right__author">Nguyễn Văn Ngọc</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">189.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">161.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb4.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Hương Rừng Cà Mau (Bìa Cứng)</a>
+                                    <span class="category-right__author">Sơn Nam</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">195.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">176.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb5.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Rượu Độc Lóng Lánh</a>
+                                    <span class="category-right__author">Agatha Christie</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">145.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">131.000đ</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="category-right__link-all">
+                                <a href="">
+                                    <i class="bi bi-chevron-double-right"></i>
+                                    <span>
+                                        Xem tất cả
+                                    </span>
+                                </a>
+
+                            </div>
+
+                            <h3 class="category-right__title">Sách Văn Học Trong Nước</h3>
+
+                            <div class="category-right__filter">
+                                <div class="category-right__filter-box" onclick="comboboxOpen()">
+                                    Sắp xếp theo trạng thái sách
+                                    <i class="bi bi-caret-down-fill category-right__filter-icon"></i>
+                                </div>
+                                <ul class="filter-combobox filter-combobox_none">
+                                    <li class="filter-combobox__item">
+                                        Mới nhất
+                                    </li>
+                                    <li class="filter-combobox__item">
+                                        A đến Z
+                                    </li>
+                                    <li class="filter-combobox__item">
+                                        Z đến A
+                                    </li>
+                                    <li class="filter-combobox__item">
+                                        Giá thấp đến cao
+                                    </li>
+                                    <li class="filter-combobox__item">
+                                        Giá cao đến thấp
+                                    </li>
+                                    <li class="filter-combobox__item">
+                                        Giảm giá thấp đến cao
+                                    </li>
+                                    <li class="filter-combobox__item">
+                                        Giảm giá cao đến thấp
+                                    </li>
+                                </ul>
+                                
+                                <div class="filter-grid">
+                                    <i class="bi bi-grid filter-grid__icon filter-grid--active" ></i>
+                                    <i class="bi bi-grid-1x2 filter-grid__icon" ></i>
+                                </div>
+                            </div>
+
+                            <div class="grid__row category-right__wrapper">
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb6.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Bức Thư Của Người Đàn Bà</a>
+                                    <span class="category-right__author">Stefan Zweig</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">84.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb7.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Ishura - Tu la dị giới tập 1 (Tân ma vương đại chiến) Bản thường</a>
+                                    <span class="category-right__author">Keiso</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">139.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb8.jpg" alt="">
+                                            <span class="sale">-15%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Cổ Học Tinh Hoa</a>
+                                    <span class="category-right__author">Nguyễn Văn Ngọc</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">189.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">161.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb9.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Hương Rừng Cà Mau (Bìa Cứng)</a>
+                                    <span class="category-right__author">Sơn Nam</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">195.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">176.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb10.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Rượu Độc Lóng Lánh</a>
+                                    <span class="category-right__author">Agatha Christie</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">145.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">131.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="grid__row category-right__wrapper">
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb6.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Bức Thư Của Người Đàn Bà</a>
+                                    <span class="category-right__author">Stefan Zweig</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">84.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb7.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Ishura - Tu la dị giới tập 1 (Tân ma vương đại chiến) Bản thường</a>
+                                    <span class="category-right__author">Keiso</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">139.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb8.jpg" alt="">
+                                            <span class="sale">-15%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Cổ Học Tinh Hoa</a>
+                                    <span class="category-right__author">Nguyễn Văn Ngọc</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">189.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">161.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb9.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Hương Rừng Cà Mau (Bìa Cứng)</a>
+                                    <span class="category-right__author">Sơn Nam</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">195.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">176.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb10.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Rượu Độc Lóng Lánh</a>
+                                    <span class="category-right__author">Agatha Christie</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">145.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">131.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__row category-right__wrapper">
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb6.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Bức Thư Của Người Đàn Bà</a>
+                                    <span class="category-right__author">Stefan Zweig</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">84.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb7.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Ishura - Tu la dị giới tập 1 (Tân ma vương đại chiến) Bản thường</a>
+                                    <span class="category-right__author">Keiso</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">139.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb8.jpg" alt="">
+                                            <span class="sale">-15%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Cổ Học Tinh Hoa</a>
+                                    <span class="category-right__author">Nguyễn Văn Ngọc</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">189.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">161.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb9.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Hương Rừng Cà Mau (Bìa Cứng)</a>
+                                    <span class="category-right__author">Sơn Nam</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">195.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">176.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb10.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Rượu Độc Lóng Lánh</a>
+                                    <span class="category-right__author">Agatha Christie</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">145.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">131.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__row category-right__wrapper">
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb6.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Bức Thư Của Người Đàn Bà</a>
+                                    <span class="category-right__author">Stefan Zweig</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">84.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb7.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Ishura - Tu la dị giới tập 1 (Tân ma vương đại chiến) Bản thường</a>
+                                    <span class="category-right__author">Keiso</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">139.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb8.jpg" alt="">
+                                            <span class="sale">-15%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Cổ Học Tinh Hoa</a>
+                                    <span class="category-right__author">Nguyễn Văn Ngọc</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">189.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">161.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb9.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Hương Rừng Cà Mau (Bìa Cứng)</a>
+                                    <span class="category-right__author">Sơn Nam</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">195.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">176.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb10.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Rượu Độc Lóng Lánh</a>
+                                    <span class="category-right__author">Agatha Christie</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">145.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">131.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__row category-right__wrapper">
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb6.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Bức Thư Của Người Đàn Bà</a>
+                                    <span class="category-right__author">Stefan Zweig</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">84.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb7.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Ishura - Tu la dị giới tập 1 (Tân ma vương đại chiến) Bản thường</a>
+                                    <span class="category-right__author">Keiso</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">98.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">139.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb8.jpg" alt="">
+                                            <span class="sale">-15%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Cổ Học Tinh Hoa</a>
+                                    <span class="category-right__author">Nguyễn Văn Ngọc</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">189.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">161.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb9.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Hương Rừng Cà Mau (Bìa Cứng)</a>
+                                    <span class="category-right__author">Sơn Nam</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">195.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">176.000đ</span>
+                                    </div>
+                                </div>
+                                <div class="category-right__book grid__colunm-2-4">
+                                    <div class="category-right__img">
+                                        <a href="">
+                                            <img src="/acces/img/cateb10.jpg" alt="">
+                                            <span class="sale">-14%</span>
+                                        </a>
+                                    </div>
+                                    <a href="" class="category-right__name">Rượu Độc Lóng Lánh</a>
+                                    <span class="category-right__author">Agatha Christie</span>
+                                    <div class="category-right__price">
+                                        <span class="category-right__old-price">145.000đ</span>
+                                        <br>
+                                        <span class="category-right__new-price">131.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-right__bot">
+                            <span class="category-right__bot-title">Trang 1/244</span>
+                            <a class="category-right__bot-page category-right__bot-page--active">1</span>
+                            <a href="" class="category-right__bot-page">2</a>
+                            <a href="" class="category-right__bot-page">3</a>
+                            <a href="" class="category-right__bot-page">4</a>
+                            <a href="" class="category-right__bot-page">5</a>
+                            <a href="" class="category-right__bot-page">6</a>
+                            <a href="" class="category-right__bot-page">7</a>
+                            <a href="" class="category-right__bot-page">8</a>
+                            <a href="" class="category-right__bot-page">></a>
+                            <a href="" class="category-right__bot-page">2-16</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer" style="clear: both;">
+            <div class="footer-regis">
+                <div class="grid">
+                    <div class="footer-regis__box">
+                        <div class="footer-regis__title">
+                            <label class="footer-regis__label">
+                                ĐĂNG KÝ NHẬN EMAIL <br>
+                                <span>Đăng ký nhận thông tin sách mới, sách bán</span>
+                            </label>
+                        </div>
+                        <div class="footer-regis__inputs">
+                            <input type="text" class="regis-input__name" placeholder="Tên của bạn">
+                            <input type="text" class="regis-input__email" placeholder="Nhập email của bạn">
+                            <select name="" id="" class="regis-input__option-gr">
+                                <option value="">Thể loại yêu thích</option>
+                                <option value="all">Tất cả</option>
+                                <option value="SNV">Sách Ngoại Văn</option>
+                                <option value="SKT">Sách Kinh Tế</option>
+                                <option value="SVHTN">Sách Văn Học Trong Nước</option>
+                                <option value="SVHNN">Sách Văn Học Nước Ngoài</option>
+                            </select>
+                            <button type="submit" class="regis__bnt">Đăng ký ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__top">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__colunm-5 footer__top-left">
+                            <div class="grid__row">
+                                <div class="grid__colunm-4 footer__top-box">
+                                    <h3 class="footer__top-title">Về công ty</h3>
+                                    <ul class="footer__top-list">
+                                        <li class="footer__top-item">
+                                            <a href="">Giới thiệu về công ty</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Tuyển dụng</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Góc báo chí</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Chương trình đại lý</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Chính sách bảo mật</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Chính sách đổi trả</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="grid__colunm-4 footer__top-box">
+                                    <h3 class="footer__top-title">Trợ giúp</h3>
+                                    <ul class="footer__top-list">
+                                        <li class="footer__top-item">
+                                            <a href="">Quy định sử dụng</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Hướng dẫn mua hàng</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Phương thức thanh toán</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Phương thức vận chuyển</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Các câu hỏi thường gặp</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Ứng dụng đọc ebook</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="grid__colunm-4 footer__top-box">
+                                    <h3 class="footer__top-title">tin tức sách</h3>
+                                    <ul class="footer__top-list">
+                                        <li class="footer__top-item">
+                                            <a href="">Tin tức</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Chân dung</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Điểm sách</a>
+                                        </li>
+                                        <li class="footer__top-item">
+                                            <a href="">Phê bình</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="grid__full-width">
+                                <h3 class="footer__top-title">Tải ứng dụng trên điện thoại</h3>
+                                <div class="footer__top-sw">
+                                    <a href="">
+                                        <img src="/acces/img/icon-appstore.png" alt="" class="footer__top-sw-img" style="margin-right: 10px;">
+                                    </a>
+                                    <a href="">
+                                        <img src="/acces/img/icon-googleplay.png" alt="" class="footer__top-sw-img">
+                                    </a>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        <div class="footer__top-right grid__colunm-7">
+                            <div class="grid__row">
+                                <div class="grid__colunm-4">
+                                    <h3 class="footer__top-title">Chấp Nhận thanh toán</h3>
+                                    <div class="footer__top-payment-box">
+                                        <img src="/acces/img/visa.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/master_card.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/atm.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/jcb.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/cod.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/payoo.jpg" alt="" class="footer__top-payment">
+                                    </div>
+                                    <h3 class="footer__top-title">thanh toán an toàn</h3>
+                                    <div class="footer__top-payment-box">
+                                        <img src="/acces/img/verify_visa.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/mastercard_securecode.jpg" alt="" class="footer__top-payment">
+                                        <img src="/acces/img/onepay.jpg" alt="" class="footer__top-payment">
+                                    </div>
+                                </div>
+                                <div class="grid__colunm-4">
+                                    <h3 class="footer__top-title">Đối tác vận chuyển</h3>
+                                    <div class="footer__top-partner">
+                                        <img src="/acces/img/KhoSach-logo.png" alt="" class="footer__top-shiper">
+                                        <img src="/acces/img/vn-post.jpg" alt="" class="footer__top-shiper">
+                                        <img src="/acces/img/dhl.jpg" alt="" class="footer__top-shiper">
+                                    </div>
+                                </div>
+                                <div class="grid__colunm-4">
+                                    <h3 class="footer__top-title">Đối tác bán hàng</h3>
+                                    <div class="footer__top-partner">
+                                        <img src="/acces/img/lazada.jpg" alt="" class="footer__top-seller">
+                                        <img src="/acces/img/shopee.jpg" alt="" class="footer__top-seller">
+                                        <img src="/acces/img/amazon.jpg" alt="" class="footer__top-seller">
                                     </div>
                                 </div>
                             </div>
@@ -1188,9 +1854,66 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
+            <div class="footer__mid">
+                <div class="grid">
+                    <h3 class="footer__top-title">Thường được tìm kiếm</h3>
+                    <div class="tmp"></div>
+                    <div class="footer__mid-common">
+                        <ul>
+                            <li><a href="">truyện dan brown</a></li>
+                            <li><a href="">sách warren buffett</a></li>
+                            <li><a href="">sách digital marketing</a></li>
+                            <li><a href="">sách cho con</a></li>
+                            <li><a href="">sách hay về gia đình</a></li>
+                            <li><a href="">giáo trình tiếng anh trẻ em</a></li>
+                            <li><a href="">sách hay về kinh tế</a></li>
+                            <li><a href="">sách về đầu tư</a></li>
+                            <li><a href="">sách doanh nhân</a></li>
+                            <li><a href="">sach hoc tieng trung</a></li>
+                            <li><a href="">tiểu thuyết tình yêu</a></li>
+                            <li><a href="">sách y học</a></li>
+                            <li><a href="">tủ sách gia đình</a></li>
+                            <li><a href="">sách dạy kỹ năng giao tiếp</a></li>
+                            <li><a href="">sách blockchain</a></li>
+                            <li><a href="">sách du học</a></li>
+                            <li><a href="">sách làm giàu</a></li>
+                            <li><a href="">sách phong thủy cổ</a></li>
+                            <li><a href="">sách về đầu tư chứng khoán</a></li>
+                            <li><a href="">sách về quản trị kinh doanh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__coppy-r">
+                <div class="grid">
+                    <div class="footer__coppy-r-top">
+                        <a href="">
+                            <img src="/acces/img/logo_so_cong_thuong.png" alt="" class="footer__coppy-r-check">
+                        </a>
+                        <div class="footer__ad">
+                            <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ MÊ KÔNG COM</p>
+                            <span>Địa chỉ: 52/2 Thoại Ngọc Hầu, Phường Hòa Thạnh, Quận Tân Phú, Hồ Chí Minh</span>
+                            <br>
+                            <span>MST: 0303615027 do Sở Kế Hoạch Và Đầu Tư Tp.HCM cấp ngày 10/03/2011</span>
+                            <br>
+                            <span>Tel: 028.73008182 - Fax: 028.39733234 - Email: <a href="">hotro@vinabook.com</a></span>
+                        </div>
+                    </div>
+
+                    <div class="footer__coppy-r-bot">
+                        <p>Website cùng hệ thống</p>
+                        <div class="footer__coppy-r-bot-logo">
+                            <img src="/acces/img/logo_hotdeal_2x.png" alt="" style="margin-right: 10px;">
+                            <img src="/acces/img/logo_yesgo_2x.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/acces/category.js"></script>
     <script src="/acces/main.js"></script>
 </body>
 </html>
