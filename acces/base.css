@@ -959,3 +959,129 @@ body {
     right: -18px;
     border-radius: 2px;
 }
+
+/* category-left */
+.category-left {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.category-left__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category-left__link {
+    display: flex;
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 10px 16px;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.category-left__link i,.category-left__link-all i {
+    color: #999;
+}
+
+.category-left__title {
+    margin: 0;
+    padding: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    font-weight: 550;
+}
+
+
+.count {
+    font-size: 13px;
+    color: #999;
+}
+
+.category-left__link-all {
+    display: flex;
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 14px 16px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.category-left__link-all span {
+    color: #5582ba;
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+/* filter */
+
+
+.category-right__filter {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.category-right__filter-box {
+    position: relative;
+    font-size: 14px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #666;
+    border-radius: 3px;
+}
+
+.category-right__filter-box:hover {
+    background-color: #c5c5c5;
+}
+
+
+.filter-combobox {
+    position: absolute;
+    list-style: none;
+    margin: 1px 0 0 0;
+    padding: 0;
+    background: var(--white-color);
+    border: 1px solid #ccc;
+    z-index: 100;
+    font-size: 14px;
+    top: 100%;
+    left: 0;
+}
+
+.filter-combobox_none {
+    display: none;
+    
+}
+
+.filter-combobox_active{
+    background: linear-gradient(to bottom,#d9d9d9,#f3f3f3);
+}
+
+.filter-combobox__item {
+    padding: 6px 14px;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.filter-combobox__item:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.filter-grid--active, .filter-grid__icon:hover {
+    background: linear-gradient(to bottom,#d9d9d9,#f3f3f3);
+}
+
+.filter-grid__icon {
+    padding: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
