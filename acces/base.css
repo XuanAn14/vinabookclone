@@ -633,7 +633,7 @@ body {
     box-shadow: 0 4px 0px #ccc;
     top: 32px;
     animation: decriptionAnimation ease-in 0.2s ;
-    z-index: 1;
+    z-index: 999;
 }
 
 .decription-p {
