@@ -19,7 +19,7 @@ body {
 }
 
 .grid {
-    width: 1300px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -266,7 +266,7 @@ body {
     top: -6px;
     right: -4px;
     background-color: #087b39;
-    padding: 3px 6px;
+    padding: 2px 6px;
     border-radius: 50%;
     color: var(--white-color);
     font-size: 13px;
